@@ -1,0 +1,41 @@
+.home-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-title {
+  margin: 0;
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 83px;
+}
+
+.home-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.home-button {
+  padding: 10px;
+  background: #EC7F00;
+  border: none;
+  border-radius: 20px;
+}
+
+.home-button:hover {
+  opacity: 75%;
+}
+
+.home-button:active {
+  background-color: white;
+}
+
+.home-img {
+  border-radius: 20px;
+}

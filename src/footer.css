@@ -1,0 +1,26 @@
+.footer-inner {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer-item+.footer-item {
+  margin-left: 30px;
+}
+
+.footer-item-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-item-link:hover {
+  opacity: 55%;
+}
